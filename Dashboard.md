@@ -7,7 +7,7 @@
 - **29/02/2016:** commencement du projet sur ipython notebook. Mise en place du jeu de données et affichage du tableau (DataFrame).
 - **02/03/2016:** création du graphique avec des barres horizontal pour les années 2013 à 2015.
 - **02/03/2016:** création du dépot GitHub avec le fichier Readme et Dashboard.
-- **05/03/2016:** ajout des deux graphiques dont la normalisation.
+- **04/03/2016:** ajout des deux graphiques dont la normalisation.
 - **05/03/2016:** début de mise en forme du jeu de donnée sur la géolocalisation des régions.
 
 ## Suivi de projet
