@@ -7,6 +7,8 @@
 - **29/02/2016:** commencement du projet sur ipython notebook. Mise en place du jeu de données et affichage du tableau (DataFrame).
 - **02/03/2016:** création du graphique avec des barres horizontal pour les années 2013 à 2015.
 - **02/03/2016:** création du dépot GitHub avec le fichier Readme et Dashboard.
+- **05/03/2016:** ajout des deux graphiques dont la normalisation.
+- **05/03/2016:** début de mise en forme du jeu de donnée sur la géolocalisation des régions.
 
 ## Suivi de projet
 
@@ -20,9 +22,13 @@
   
 > Ensuite nous avons fait notre premier graphique afin de visualiser la densité des médecins par région entre 2013 et 2015 : le graphique se présente à l'aide de barres horizontal associées à la valeur de densité de médecins de la region selon l'année.
 
+> Ajout de deux graphiques, le premier montre l'évolution de la densité au fil des années. Nous constatons que dans des régions le nombre de médecins par habitant baisse progressivement au fil des années, et dans d'autres régions il y'a une légère augmentation. Dans un deuxième temps, un graphique avec un tableau normalisé pour mieux visualiser les courbes.
+
 ## Problèmes rencontrées
 
 - 1er jeu de données sur la géolocalisation des ambassades de France --> problème impossible de travailler dessus et mettre en place des méthodes de statistiques/ML.
+- Jeu de données pour la géolocalisation des régions à partir des données venant de [Data Gouv](https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/), ce jeu de données n'est pas complet donc nous avons dû le modifier à l'aide de google map afin de compléter certaines latitude et longitude.  
+- 
 
 ***
 <p align="center"> © Copyright 2016 - Jérémie Chattou & Didier Bertille & Zacharie Barbecot </p>
