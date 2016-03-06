@@ -13,7 +13,7 @@
 
 ## Suivi de projet
 
-> #### 1. Date 03/03/2016
+> #### 1. Date 02/03/2016
 
 > Lors du choix du projet et des jeux de données, nous avons eu du mal à créer une problèmatique. C'est en tombant sur les jeux de données sur les professions de santé que notre problématique s'est peu à peu écrite.
   
@@ -23,8 +23,10 @@
   
 > Ensuite nous avons fait notre premier graphique afin de visualiser la densité des médecins par région entre 2013 et 2015 : le graphique se présente à l'aide de barres horizontal associées à la valeur de densité de médecins de la region selon l'année.
 
+> #### 2. Date 04/03/2016 
 > Ajout de deux graphiques, le premier montre l'évolution de la densité au fil des années. Nous constatons que dans des régions le nombre de médecins par habitant baisse progressivement au fil des années, et dans d'autres régions il y'a une légère augmentation. Dans un deuxième temps, un graphique avec un tableau normalisé pour mieux visualiser les courbes.
 
+> #### 3. Date 06/03/2016 
 > Après avoir chercher des informations sur la doc de pandas afin d'afficher notre jeu de données récupéré sur le site [Data Gouv] (https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/). Nous avons décidé de rectifier le fichier manuellement en corrigant les problèmes d'encoding pour les noms des regions et chef lieu utile. Par le biais du package pandas, nous avons réussi après quelques difficultés à créer un jeu de données intéressant afin de pouvoir travailler dessus.
 
 ## Problèmes rencontrées
