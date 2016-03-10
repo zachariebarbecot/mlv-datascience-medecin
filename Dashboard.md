@@ -10,6 +10,7 @@
 - **04/03/2016:** ajout des deux graphiques dont la normalisation des données.
 - **05/03/2016:** début de mise en forme du jeu de données sur la géolocalisation des régions.
 - **06/03/2016:** réussite de la mise en forme du jeu de données et affichage dans un DataFrame.
+- **09/03/2016:** début de réalisation de la carte de France avec les densités de médecins par région avec ggplot.
 
 ## Suivi de projet
 
@@ -31,11 +32,14 @@
 
 > une jointure de la table contenant la densité des médecins de 2013 à 2015 avec la table de géolocalisation des régions réalisée. Pour effectuer cette tache,  il a fallu créer une colonne distincte aux deux tableaux, c'est pourquoi un renommage des colonnes a été nécessaire. La jointure a pu ainsi se faire naturellement sur la colonne "Nom région".
 
+> ### 4. Date 09/03/2016
+> L'équipe s'est interessé à la librairie ggplot afin de réaliser une première itération d'une carte de la région française avec les densité de médecins.
+
 ## Problèmes rencontrées
 
 - 1er jeu de données sur la géolocalisation des ambassades de France --> problème impossible de travailler dessus et mettre en place des méthodes de statistiques/ML.
 - Jeu de données pour la géolocalisation des régions à partir des données venant de [Data Gouv](https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/), ce jeu de données n'est pas complet donc nous avons dû le modifier à l'aide de google map afin de compléter certaines latitude et longitude. 
 - Le fichier CSV du jeu de données précédent avait un problème d'encodage des caractères.
-
+- Difficulté pour installer ggplot, mais le problème venait du réseau de l'université ce qui supprimait la commande conda.exe après avoir tenté d'installer la librairie ggplot.
 ***
 <p align="center"> © Copyright 2016 - Jérémie Chattou & Didier Bertille & Zacharie Barbecot </p>
