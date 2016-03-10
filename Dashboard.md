@@ -27,7 +27,7 @@
 > #### 2. Date 04/03/2016 
 > Ajout de deux graphiques, le premier montre l'évolution de la densité au fil des années. Nous constatons ainsi que dans certaines régions le nombre de médecins par habitant baisse progressivement au fil des années, et dans d'autres régions il y'a une légère augmentation. Dans un deuxième temps, un graphique normalisé afin de visualiser selon une même norme l'évolution des médecins au cours des années.
 
-> #### 3. Date 06/03/2016 
+> ### 3. Date 06/03/2016 
 > Après avoir chercher des informations sur la documentation de pandas afin d'afficher notre jeu de données récupéré sur le site [Data Gouv] (https://www.data.gouv.fr/fr/datasets/listes-des-communes-geolocalisees-par-regions-departements-circonscriptions-nd/). Nous avons décidé de rectifier le fichier manuellement en corrigant les problèmes d'encoding pour les noms des regions et les chefs-lieu utile pour la réalisation de notre carte. Par le biais du package pandas, nous avons réussi après quelques difficultés à créer un jeu de données intéressant afin de pouvoir travailler dessus.
 
 > une jointure de la table contenant la densité des médecins de 2013 à 2015 avec la table de géolocalisation des régions réalisée. Pour effectuer cette tache,  il a fallu créer une colonne distincte aux deux tableaux, c'est pourquoi un renommage des colonnes a été nécessaire. La jointure a pu ainsi se faire naturellement sur la colonne "Nom région".
