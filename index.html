@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Densite des medecins par region</title>
+		<style>
+		body { background: steelblue; }
+		</style>
+	</head>
+	<body>
+		<script src="js/d3.min.js"></script>
+		<script>
+			var body = d3.selectAll("body");
+			d3.csv('result.csv', function(res) {
+			body.text(res[5][3]);
+			});
+		</script>
+	</body>
+</html>
