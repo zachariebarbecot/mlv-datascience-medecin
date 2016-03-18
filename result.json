@@ -10,7 +10,7 @@
 	{"Nom_region": "Corse", "Chef_lieu": "Ajaccio", "Latitude":41.916667, "Longitude":8.733333, "Generalistes_2013":152.4, "Generalistes_2014":152.4, "Generalistes_2015":155.7},
 	{"Nom_region": "Franche-Comté", "Chef_lieu": "Besançon", "Latitude":47.25, "Longitude":6.033333, "Generalistes_2013":158.6, "Generalistes_2014":155.0, "Generalistes_2015":156.3},
 	{"Nom_region": "Haute-Normandie", "Chef_lieu": "Rouen", "Latitude":49.433333, "Longitude":1.083333, "Generalistes_2013":137.0, "Generalistes_2014":137.1, "Generalistes_2015":136.2},
-	{"Nom_region": "Ile-de-France", "Chef_lieu": "Paris", "Latitude":48.864049, "Longitude":2.331053, "Generalistes_2013":154.7, "Generalistes_2014":154.0, "Generalistes_2015":152.1},
+	{"Nom_region": "Île-de-France", "Chef_lieu": "Paris", "Latitude":48.864049, "Longitude":2.331053, "Generalistes_2013":154.7, "Generalistes_2014":154.0, "Generalistes_2015":152.1},
 	{"Nom_region": "Languedoc-Roussillon", "Chef_lieu": "Montpellier", "Latitude":43.6, "Longitude":3.883333, "Generalistes_2013":174.2, "Generalistes_2014":174.4, "Generalistes_2015":172.5},
 	{"Nom_region": "Limousin", "Chef_lieu": "Limoges", "Latitude":45.85, "Longitude":1.25, "Generalistes_2013":175.5, "Generalistes_2014":175.7, "Generalistes_2015":177.1},
 	{"Nom_region": "Lorraine", "Chef_lieu": "Metz", "Latitude":49.133333, "Longitude":6.166667, "Generalistes_2013":148.7, "Generalistes_2014":148.2, "Generalistes_2015":149.6},
