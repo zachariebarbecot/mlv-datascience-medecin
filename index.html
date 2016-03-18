@@ -1,19 +1,96 @@
 <!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Densite des medecins par region</title>
-		<style>
-		body { background: steelblue; }
-		</style>
-	</head>
-	<body>
-		<script src="js/d3.min.js"></script>
-		<script>
-			var body = d3.selectAll("body");
-			d3.csv('result.csv', function(res) {
-			body.text(res[5][3]);
-			});
-		</script>
-	</body>
-</html>
+<meta charset="utf-8">
+<title>Densité des médecins en France sur 100000 habitants</title>
+<style>
+body{
+	font-family:Arial
+}
+circle{
+	stroke-width:2
+}
+text{
+	text-anchor:middle;
+	font-size:0.7em;
+	dominant-baseline:middle;	
+}
+path{
+	fill:#ddd;
+	opacity:0.4;
+	stroke-size:3px;
+	stroke:#222;
+}
+</style>
+<body>
+<h1>Densité des médecins en France par régions sur X habitants de 2013 à 2015</h1>
+<input type="radio" name="annee"  onchange="update('Generalistes_2013')">2013
+<input type="radio" name="annee"  onchange="update('Generalistes_2014')">2014
+<input type="radio" name="annee"  onchange="update('Generalistes_2015')" checked>2015<br>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script>
+window.onload = function(){
+	var width = 800,
+		height = 600;		
+		
+	var svg = d3.select("body").append("svg").attr("width",width).attr("height",height);
+	var scalecircle = d3.scale.sqrt().range([0, 10]).domain([120,180]);
+	var scalecolor = d3.scale.linear().range(["#fff","#f22"]).domain([120,180]);
+		
+	var projection = d3.geo.azimuthalEquidistant()
+		.translate([width, height])
+		.center([15,38])
+		.scale([2500]);
+		
+	var path = d3.geo.path().projection(projection);
+		
+	var data = [];
+	
+	queue()
+   .defer(d3.json, './France-region.json') // topojson polygons
+   .defer(d3.json, './result.json') // geojson points
+   .await(function(error,features,json){
+		
+		// le fond de carte en geojson
+		console.log(features.features)
+
+		// une ligne de code pour dessiner le fond de carte cf path()
+		svg.selectAll("path").data(features.features).enter().append("path").attr("d",path)
+		
+		console.log(json)
+		data = json
+
+		
+		var circles = svg.selectAll("circle").data(data)
+
+		circles.enter().append("circle")
+			.attr("cx",function(d){var p = projection([+d.Longitude,+d.Latitude]); return p[0];})
+			.attr("cy",function(d){var p = projection([+d.Longitude,+d.Latitude]); return p[1];})
+			.attr("r",function(d){return scalecircle(d.Generalistes_2015);})
+			.style("fill",function(d){return scalecolor(d.Generalistes_2015);})
+			.style("stroke",function(d){return d3.rgb(scalecolor(d.Generalistes_2015)).darker();})
+			.on("mouseover",function(d){console.log(d);})
+
+		circles.append("title").html(function(d){return d.Nom_region + " : " + d.Generalistes_2015})
+		
+		var labels = svg.selectAll("text").data(data)
+		labels.enter().append("text")
+			.attr("x",function(d){var p = projection([+d.Longitude,+d.Latitude]); return p[0]-15})
+			.attr("y",function(d){var p = projection([+d.Longitude,+d.Latitude]); return p[1]-10})
+			.html(function(d){return d.Nom_region})
+			.style("text")
+		
+	});
+
+	var update = function(feature){
+		var circles = d3.selectAll("circle")
+		circles.transition().duration(2000).ease(d3.ease("quad"))
+			.attr("r",function(d){return scalecircle(d[feature])})
+			.style("fill",function(d){return scalecolor(d[feature])})
+			.style("stroke",function(d){return d3.rgb(scalecolor(d[feature])).darker()})
+		
+		circles.selectAll("title").html(function(d){return d.Nom_region + " : " + d3.round(d[feature],1)})
+
+	};
+};
+</script>

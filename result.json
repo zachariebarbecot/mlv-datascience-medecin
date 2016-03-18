@@ -1,0 +1,23 @@
+[
+	{"Nom_region": "Alsace", "Chef_lieu": "Strasbourg", "Latitude":48.583333, "Longitude":7.75, "Generalistes_2013":159.7, "Generalistes_2014":159.6, "Generalistes_2015":158.7},
+	{"Nom_region": "Aquitaine", "Chef_lieu": "Bordeaux", "Latitude":44.833333, "Longitude":-0.566667, "Generalistes_2013":170.9, "Generalistes_2014":170.7, "Generalistes_2015":170.1},
+	{"Nom_region": "Auvergne", "Chef_lieu": "Clermont-Ferrand", "Latitude":45.783333, "Longitude":3.083333, "Generalistes_2013":153.0, "Generalistes_2014":154.3, "Generalistes_2015":152.9},
+	{"Nom_region": "Basse-Normandie", "Chef_lieu": "Caen", "Latitude":49.183333, "Longitude":-0.35, "Generalistes_2013":147.8, "Generalistes_2014":149.7, "Generalistes_2015":150.5},
+	{"Nom_region": "Bourgogne", "Chef_lieu": "Dijon", "Latitude":47.316667, "Longitude":5.016667, "Generalistes_2013":141.9, "Generalistes_2014":142.2, "Generalistes_2015":140.1},
+	{"Nom_region": "Bretagne", "Chef_lieu": "Rennes", "Latitude":48.083333, "Longitude":-1.683333, "Generalistes_2013":155.3, "Generalistes_2014":156.5, "Generalistes_2015":157.1},
+	{"Nom_region": "Centre", "Chef_lieu": "Orléans", "Latitude":47.916667, "Longitude":1.9, "Generalistes_2013":130.9, "Generalistes_2014":129.9, "Generalistes_2015":129.6},
+	{"Nom_region": "Champagne-Ardenne", "Chef_lieu": "Chalons-en-Champagne", "Latitude":48.958333, "Longitude":4.366667, "Generalistes_2013":144.8, "Generalistes_2014":146.0, "Generalistes_2015":144.3},
+	{"Nom_region": "Corse", "Chef_lieu": "Ajaccio", "Latitude":41.916667, "Longitude":8.733333, "Generalistes_2013":152.4, "Generalistes_2014":152.4, "Generalistes_2015":155.7},
+	{"Nom_region": "Franche-Comté", "Chef_lieu": "Besançon", "Latitude":47.25, "Longitude":6.033333, "Generalistes_2013":158.6, "Generalistes_2014":155.0, "Generalistes_2015":156.3},
+	{"Nom_region": "Haute-Normandie", "Chef_lieu": "Rouen", "Latitude":49.433333, "Longitude":1.083333, "Generalistes_2013":137.0, "Generalistes_2014":137.1, "Generalistes_2015":136.2},
+	{"Nom_region": "Ile-de-France", "Chef_lieu": "Paris", "Latitude":48.864049, "Longitude":2.331053, "Generalistes_2013":154.7, "Generalistes_2014":154.0, "Generalistes_2015":152.1},
+	{"Nom_region": "Languedoc-Roussillon", "Chef_lieu": "Montpellier", "Latitude":43.6, "Longitude":3.883333, "Generalistes_2013":174.2, "Generalistes_2014":174.4, "Generalistes_2015":172.5},
+	{"Nom_region": "Limousin", "Chef_lieu": "Limoges", "Latitude":45.85, "Longitude":1.25, "Generalistes_2013":175.5, "Generalistes_2014":175.7, "Generalistes_2015":177.1},
+	{"Nom_region": "Lorraine", "Chef_lieu": "Metz", "Latitude":49.133333, "Longitude":6.166667, "Generalistes_2013":148.7, "Generalistes_2014":148.2, "Generalistes_2015":149.6},
+	{"Nom_region": "Midi-Pyrénées", "Chef_lieu": "Toulouse", "Latitude":43.6, "Longitude":1.433333, "Generalistes_2013":167.7, "Generalistes_2014":167.7, "Generalistes_2015":168.5},
+	{"Nom_region": "Nord-Pas-de-Calais", "Chef_lieu": "Lille", "Latitude":50.633333, "Longitude":3.066667, "Generalistes_2013":155.3, "Generalistes_2014":156.3, "Generalistes_2015":158.2},
+	{"Nom_region": "Pays de la Loire", "Chef_lieu": "Nantes", "Latitude":47.216667, "Longitude":-1.55, "Generalistes_2013":142.4, "Generalistes_2014":143.2, "Generalistes_2015":144.1},
+	{"Nom_region": "Picardie", "Chef_lieu": "Amiens", "Latitude":49.9, "Longitude":2.3, "Generalistes_2013":134.4, "Generalistes_2014":133.2, "Generalistes_2015":134.1},
+	{"Nom_region": "Poitou-Charentes", "Chef_lieu": "Poitiers", "Latitude":46.583333, "Longitude":0.333333, "Generalistes_2013":156.5, "Generalistes_2014":155.3, "Generalistes_2015":155.9},
+	{"Nom_region": "Rhône-Alpes", "Chef_lieu": "Lyon", "Latitude":45.759723, "Longitude":4.8422, "Generalistes_2013":158.1, "Generalistes_2014":158.7, "Generalistes_2015":158.5}
+]
