@@ -2,6 +2,8 @@
 # Readme : mlv-datascience-medecin
 ***
 
+![Carte](http://i.imgur.com/aBaTIpZ.png)
+
 ### Projet de DataScience réalisé au cours du M2 BigData
 
 - Sujet : Densité des médecins selon la géolocalisation des régions françaises. 

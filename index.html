@@ -43,7 +43,7 @@ li
   	margin-left: -10px;
   	text-align: center;
 }
-#container{
+#container, #footer{
 	position:relative;
 	width:70%;	
 	margin-left:15%;
@@ -79,6 +79,15 @@ li
 <svg>
 <defs><filter id="shadow" x="-10%" y="-10%" width="140%" height="140%"><feGaussianBlur stdDeviation="1 1" result="shadow"/><feOffset dx="1" dy="1"/></filter></defs>
 </svg>
+</div>
+<div id="footer">
+	<h1>Details</h1>
+	<p>
+		Cette visualisation de données permet de montrer la densité de medecins qu'il y a en France par région pour 100K habitants. <br />
+		Pour réaliser cette carte, nous avons utilisés la bibliotheque graphique <a href="https://d3js.org/">D3</a> ainsi que Colorbrewer.<br />
+		Le fond de carte est fait en geojson et à été récupéré sur github: <a href="https://github.com/gregoiredavid/france-geojson/blob/master/regions.geojson">lien</a><br />
+		Les données utilisées proviennent du site <a href="https://www.data.gouv.fr/fr/">https://www.data.gouv.fr/fr/</a> et plus précisement nous avons utilisez et effectuez des modifications sur les fichiers suivants sur 3 années : <a href="http://www.data.drees.sante.gouv.fr/TableViewer/tableView.aspx?ReportId=1155">http://www.data.drees.sante.gouv.fr/TableViewer/tableView.aspx?ReportId=1155</a>
+	</p>
 </div>
 
 

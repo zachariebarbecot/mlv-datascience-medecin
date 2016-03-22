@@ -35,6 +35,13 @@
 > ### 4. Date 09/03/2016
 > L'équipe s'est interessé à la librairie ggplot afin de réaliser une première itération d'une carte de la région française avec les densité de médecins.
 
+> ### 4. Date 18/03/2016
+> Abandon de ggplot, library non mature sur python.
+
+> Nous avons utilisés la library Folium pour afficher une map avec les marqueurs sur les régions.
+
+> Nous avons aussi créés une page HTML utilisant la library D3 + une geojson des régions de France pour afficher une carte avec les différentes densités.
+
 ## Problèmes rencontrées
 
 - 1er jeu de données sur la géolocalisation des ambassades de France --> problème impossible de travailler dessus et mettre en place des méthodes de statistiques/ML.
